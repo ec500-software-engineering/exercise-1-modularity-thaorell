@@ -1,5 +1,8 @@
 # EC500-HealthMonitorSystem
-Charles's implementation of the health monitor system for Health Monitor EC500
+Charles's health monitor system module assembly for EC500
+
+Original work from Huzefa's private repo: https://github.com/HuzefaMandvi/EC500-HealthMonitorSystem
+
 
 Known issues:
    - Cannot adjust sensor reading frequency
