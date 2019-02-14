@@ -11,4 +11,7 @@ python:
 
 
 
-script: pytest -v
+script: 
+  - pytest -v
+  - python3 main.py
+
