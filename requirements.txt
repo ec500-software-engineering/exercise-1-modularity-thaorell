@@ -1,2 +1,2 @@
 tkinter
-pycrypto == 2.6.1
+cryptography

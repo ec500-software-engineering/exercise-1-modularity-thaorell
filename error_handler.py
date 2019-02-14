@@ -1,3 +1,4 @@
+
 def Error_Handler(data):
     hr_reading = data.get("heart_rate")
     bp1_reading = data.get("blood_pressure1")
