@@ -17,6 +17,8 @@ I implemented encryption and decryption modules using Python Cryptography Librar
 To run the application, run the following command in your Terminal:
 ```
 python3 main.py
+
+Input of this setup is a series of random numbers which would update every 10ms and the output is the user interface
 ```
 ## Pros:
 Each session has a unique PID, and data in the session would be encrypted and compiled into a PID_data file. This way, patients' data is securely store for maximum confidentiality
