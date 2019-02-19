@@ -1,12 +1,10 @@
-from tkinter import *
+from tkinter import Tk, Label, IntVar
 from data import data_pull, cleanup
-import time
 from error_handler import Error_Handler
 from error_handler import check_hr, check_bo, check_bp
-from datastore import insertData, getData
-from encryption import encrypt, generate_key
+from datastore import insertData
+from encryption import  generate_key
 from alert_system import page_doctor
-from pathlib import Path
 import os
 import random
 
@@ -80,7 +78,7 @@ def runUI():
 # Store (theoretically encrypted) data
 # Handle errors
 def mainLoop(hr, bp, bp2, bo):
-    min_int = min(hr_interval, bp_interval, bo_interval)
+    # min_int = min(hr_interval, bp_interval, bo_interval)
     data_obj = data_pull()
     insertData(p_id,data_obj)
 
